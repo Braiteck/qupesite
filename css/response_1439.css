@@ -1,0 +1,381 @@
+@media print, (max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont,
+    .cont.mini
+    {
+        padding: 0 30px;
+    }
+
+
+    .content_flex .content
+    {
+        padding: 0;
+    }
+
+    .content_flex .content > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 30px 0;
+    }
+
+
+    header .menu > .item + .item
+    {
+        margin-left: 30px;
+    }
+
+
+    header .links .link
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+    header .links > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    header .phone
+    {
+        margin-left: 35px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 650px;
+        padding: 165px 40px 110px;
+    }
+
+    .main_slider .owl-carousel .owl-nav button
+    {
+        bottom: 57px;
+    }
+
+    .main_slider .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 100px;
+
+        margin-right: 0;
+    }
+
+    .main_slider .owl-carousel .owl-nav button.owl-next
+    {
+        right: 40px;
+
+        margin-right: 0;
+    }
+
+    .main_slider .count
+    {
+        right: 175px;
+        bottom: 20px;
+
+        margin-right: 0;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .services .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .services .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*----------------------
+        Popular services
+    ----------------------*/
+    .popular_services
+    {
+        padding-bottom: 80px;
+    }
+
+    .popular_services .tab_content
+    {
+        padding: 0;
+    }
+
+    .popular_services .buy
+    {
+        width: 540px;
+    }
+
+
+
+    /*--------------
+        You want
+    --------------*/
+    .you_want .title
+    {
+        font-size: 32px;
+    }
+
+    .you_want .btn
+    {
+        margin-left: 80px;
+    }
+
+
+
+    /*-------------
+        Complex
+    -------------*/
+    .complex
+    {
+        padding: 140px 0 110px;
+    }
+
+    .complex .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    /*--------------
+        Why sure
+    --------------*/
+    .why_sure .cont
+    {
+        padding: 0 70px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .name
+    {
+        line-height: 125%;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        padding: 130px 0 110px;
+    }
+
+    .service_head .row
+    {
+        padding: 0 50px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        padding: 60px 0;
+    }
+
+    .service_info .data
+    {
+        margin-right: 0;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .projects .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs
+    {
+        padding: 110px 0;
+    }
+
+
+    .tariffs .tariff .desc,
+    .tariffs .tariff .features
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-----------------------
+        Strategy/Timeline
+    -----------------------*/
+    .strategy_timeline
+    {
+        padding: 110px 0;
+    }
+
+    .strategy_timeline.min_top_pad
+    {
+        padding-top: 0;
+    }
+
+
+
+    /*-----------------
+        Action plan
+    -----------------*/
+    .action_plan
+    {
+        padding: 110px 0;
+    }
+
+    .action_plan.min_top_pad
+    {
+        padding-top: 0;
+    }
+
+
+
+    /*----------------
+        What we do
+    ----------------*/
+    .what_we_do
+    {
+        padding-bottom: 0;
+    }
+
+
+    .what_we_do .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .what_we_do .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form .data
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*------------------
+        Has question
+    ------------------*/
+    .has_question .cont
+    {
+        padding: 0 70px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info .cont.row,
+    footer .bottom .cont.row
+    {
+        padding-right: 30px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

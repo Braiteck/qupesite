@@ -1,0 +1,1008 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 34px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+    .block.bg
+    {
+        padding: 70px 0;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        margin-right: auto;
+    }
+
+    header .logo a,
+    header .logo img
+    {
+        width: 200px;
+    }
+
+
+    header .menu
+    {
+        position: fixed;
+        z-index: 90;
+        top: 0;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 70px 30px;
+
+        background: #23347e;
+    }
+
+    header .menu > .item + .item
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    header .menu > .item > a,
+    header.dark .menu > .item > a,
+    header.fixed .menu > .item > a
+    {
+        color: #fff;
+        font-size: 26px;
+        line-height: 140%;
+    }
+
+
+    header .menu .sub_menu,
+    header .menu > .item:hover .sub_menu
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: none;
+        visibility: visible;
+
+        width: 100%;
+        margin: 10px 0 20px;
+        padding: 10px 0;
+
+        opacity: 1;
+        background: #f4fafc;
+    }
+
+    header .menu > .item > a.touch_link + .sub_menu.show
+    {
+        top: 0;
+
+        display: block;
+    }
+
+    header .menu .sub_menu .tabs
+    {
+        display: none;
+    }
+
+    header .menu .sub_menu .tab_content
+    {
+        width: 100%;
+    }
+
+    header .menu .sub_menu .slimScrollDiv
+    {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    header .menu .sub_menu .custom_scroll
+    {
+        height: auto !important;
+        padding: 0;
+    }
+
+    header .menu .sub_menu .slimScrollRail,
+    header .menu .sub_menu .slimScrollBar
+    {
+        display: none !important;
+    }
+
+    header .menu .sub_menu .col
+    {
+        width: 100%;
+        min-height: 0;
+        padding: 10px 0;
+    }
+
+    header .menu .sub_menu .on
+    {
+        padding: 20px;
+    }
+
+    header .menu .sub_menu .info
+    {
+        display: none;
+    }
+
+    header .menu .sub_menu .links a
+    {
+        min-height: 0;
+        padding: 5px 20px;
+    }
+
+
+    header .menu .sub_menu .mob_title
+    {
+        display: flex;
+    }
+
+
+    header .menu .sub_menu .tab_content
+    {
+        display: none;
+        visibility: visible;
+
+        height: auto;
+        margin-bottom: 10px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+        background: #fff;
+    }
+
+    header .menu .sub_menu .tab_content,
+    header .menu .sub_menu .tab_content.active
+    {
+        width: 100%;
+    }
+
+
+    header .menu .close
+    {
+        display: block;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+    header .links .link
+    {
+        width: 38px;
+        height: 38px;
+    }
+
+
+
+    #search_modal
+    {
+        padding: 120px 0 60px;
+    }
+
+    #search_modal .often_search
+    {
+        margin-top: 50px;
+    }
+
+    #search_modal .often_search .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+    #search_modal .often_search .links
+    {
+        left: 0;
+
+        width: calc(100% + 20px);
+        max-width: calc(100% + 20px);
+        margin: 0 0 -15px -20px;
+    }
+
+    #search_modal .often_search .links > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+
+        column-gap: 20px;
+        column-count: 2;
+    }
+
+    aside > *
+    {
+        transform: translateZ(0);
+
+        --webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    aside > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    aside .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h1
+    {
+        font-size: 34px;
+
+        margin-bottom: 15px;
+    }
+
+    .text_block h2
+    {
+        font-size: 28px;
+    }
+
+    .text_block h3
+    {
+        font-size: 23px;
+    }
+
+
+    .text_block .columns
+    {
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+        column-gap: 30px;
+    }
+
+
+    .text_block .shifted
+    {
+        position: relative;
+        z-index: 9;
+        left: 0;
+
+        width: 100%;
+        margin: 30px 0;
+    }
+
+
+    .text_block blockquote
+    {
+        display: flex;
+
+        min-height: 120px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        padding-top: 110px;
+    }
+
+
+    .main_slider .slide .img
+    {
+        width: 100%;
+        height: 375px;
+        margin-bottom: -30px;
+    }
+
+    .main_slider .slide .img img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+
+    .main_slider .slide .info
+    {
+        position: relative;
+        z-index: 5;
+
+        width: 100%;
+
+        order: 3;
+    }
+
+
+
+    /*----------------------
+        Popular services
+    ----------------------*/
+    .popular_services
+    {
+        padding-bottom: 0;
+    }
+
+    .popular_services .block_head
+    {
+        padding-bottom: 0;
+    }
+
+
+    .popular_services .tabs button
+    {
+        font-size: 20px;
+        line-height: 110%;
+
+        padding: 11px 20px;
+    }
+
+
+    .popular_services .data
+    {
+        width: 100%;
+    }
+
+
+    .popular_services .stats
+    {
+        margin-top: 40px;
+    }
+
+
+    .popular_services .buy
+    {
+        margin: 50px auto 0;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(50% - 40px);
+        max-width: calc(50% - 40px);
+    }
+
+
+
+    /*--------------
+        Why sure
+    --------------*/
+    .why_sure .row > *
+    {
+        width: calc(50% - 40px);
+        max-width: calc(50% - 40px);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        --articles_count: 2;
+    }
+
+    .articles .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .articles .row > *.tablet_hide
+    {
+        display: block;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        padding: 100px 0 80px;
+    }
+
+
+    .service_head .data
+    {
+        max-width: calc(100% - 390px);
+    }
+
+    .service_head .data .title
+    {
+        font-size: 54px;
+    }
+
+
+    .service_head .form
+    {
+        width: 360px;
+        padding: 35px 30px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        padding: 0;
+    }
+
+
+    .service_info .img
+    {
+        width: 360px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .service_info .data
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .service_info .data .title
+    {
+        font-size: 36px;
+
+        margin-bottom: 25px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .tabs
+    {
+        margin-bottom: 15px;
+        margin-left: -30px;
+    }
+
+    .projects .tabs button
+    {
+        font-size: 20px;
+
+        max-width: calc(100% - 30px);
+        margin-left: 30px;
+    }
+
+
+    .projects .project .logo,
+    .projects .project .details
+    {
+        bottom: 20px;
+
+        width: 180px;
+        height: 70px;
+    }
+
+    projects .project .details .btn
+    {
+        font-size: 15px;
+        line-height: 125%;
+
+        padding: 9px 25px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs
+    {
+        padding: 80px 0;
+    }
+
+
+    .tariffs .row
+    {
+        margin-bottom: -40px;
+
+        --tariffs_count: 2;
+    }
+
+    .tariffs .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+    }
+
+
+    .tariffs .tariff .sticker
+    {
+        font-size: 22px;
+
+        top: -25px;
+        right: 20px;
+    }
+
+
+
+    /*-----------------------
+        Strategy/Timeline
+    -----------------------*/
+    .strategy_timeline
+    {
+        padding: 80px 0;
+    }
+
+
+    .strategy_timeline .month > .title
+    {
+        font-size: 22px;
+
+        padding: 12px 20px 11px;
+    }
+
+
+    .strategy_timeline .month .features
+    {
+        column-count: 2;
+    }
+
+
+    .strategy_timeline .month .lock_info .title
+    {
+        font-size: 26px;
+    }
+
+    .strategy_timeline .month .lock_info .period
+    {
+        font-size: 36px;
+    }
+
+    .strategy_timeline .month .lock_info .btn
+    {
+        font-size: 15px;
+        line-height: 125%;
+
+        padding: 11px 25px;
+    }
+
+
+
+    /*-----------------
+        Action plan
+    -----------------*/
+    .action_plan
+    {
+        padding: 80px 0;
+    }
+
+
+    .action_plan .row
+    {
+        margin-bottom: -50px;
+    }
+
+    .action_plan .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 50px;
+    }
+
+
+    .action_plan .step .number
+    {
+        font-size: 32px;
+    }
+
+    .action_plan .step .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------
+        What we do
+    ----------------*/
+    .what_we_do .block_head .desc
+    {
+        font-size: 19px;
+    }
+
+
+    .what_we_do .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .what_we_do .item .name
+    {
+        font-size: 21px;
+    }
+
+    .what_we_do .item .desc
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        padding: 60px 0;
+    }
+
+
+    .action_form .img
+    {
+        width: 225px;
+    }
+
+
+    .action_form .data
+    {
+        width: calc(100% - 270px);
+    }
+
+    .action_form .data .title
+    {
+        font-size: 26px;
+
+        width: 100%;
+    }
+
+    .action_form .form .columns > *.width1of3
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .block_head
+    {
+        width: 100%;
+        margin-bottom: 25px !important;
+    }
+
+    .faq .block_head img
+    {
+        display: none;
+    }
+
+
+    .faq .accordion
+    {
+        max-width: 100%;
+    }
+
+    .faq .item .title
+    {
+        font-size: 20px;
+    }
+
+    .faq .item .icon
+    {
+        top: 21px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding-bottom: 0;
+    }
+
+    .services.related .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .services .service
+    {
+        padding: 25px 25px 70px;
+    }
+
+    .services .service .name
+    {
+        font-size: 22px;
+    }
+
+    .services .service .icon
+    {
+        margin: -20px 0;
+
+        transform: scale(.8);
+    }
+
+
+
+    /*------------------
+        Has question
+    ------------------*/
+    .has_question
+    {
+        padding: 80px 0;
+    }
+
+    .has_question .cont
+    {
+        padding-right: 20px;
+    }
+
+
+    .has_question .img
+    {
+        width: 160px;
+    }
+
+    .has_question .title
+    {
+        font-size: 27px;
+    }
+
+    .has_question .btn
+    {
+        font-size: 15px;
+        line-height: 125%;
+
+        margin-left: 35px;
+        padding: 11px 25px;
+    }
+
+
+
+    /*--------------
+        You want
+    --------------*/
+    .you_want
+    {
+        padding: 60px 0;
+    }
+
+    .you_want .cont
+    {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .you_want .img
+    {
+        display: none;
+    }
+
+    .you_want .title
+    {
+        font-size: 27px;
+    }
+
+    .you_want .btn
+    {
+        margin-left: 50px;
+    }
+
+
+
+    /*-------------
+        Complex
+    -------------*/
+    .complex
+    {
+        padding: 90px 0 40px;
+    }
+
+
+    .complex .block_head
+    {
+        width: 100%;
+    }
+
+
+    .complex .img
+    {
+        margin: 40px auto 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info .title
+    {
+        font-size: 15px;
+        line-height: 125%;
+
+        margin-bottom: 20px;
+    }
+
+
+    footer .info .col_left
+    {
+        width: 185px;
+    }
+
+    footer .info .col_left > * + *
+    {
+        margin-top: 35px;
+    }
+
+
+    footer .info .col_right
+    {
+        width: 320px;
+    }
+
+    footer .info .col_right > * + *
+    {
+        margin-top: 35px;
+    }
+
+
+    footer .contacts
+    {
+        font-size: 15px;
+        line-height: 125%;
+    }
+
+    footer .contacts > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    footer .news .items a
+    {
+        font-size: 15px;
+        line-height: 125%;
+    }
+
+
+    footer .subscribe
+    {
+        font-size: 15px;
+        line-height: 125%;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 30px;
+    }
+
+    .fancybox-slide--html .fancybox-close-small
+    {
+        position: fixed;
+    }
+
+
+
+    #project_info_modal
+    {
+        padding: 65px 0 40px;
+    }
+
+    .project_info .head .name
+    {
+        font-size: 28px;
+
+        max-width: calc(100% - 250px);
+    }
+
+    .project_info .head .link
+    {
+        font-size: 20px;
+    }
+
+
+    .project_info .image .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .project_info .already_helped .block_title
+    {
+        font-size: 32px;
+    }
+
+
+    .project_info .before_after .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .project_info .projects .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+}

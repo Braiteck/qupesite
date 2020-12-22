@@ -1,0 +1,124 @@
+<section class="modal project_info" id="project_info_modal">
+    <div class="head">
+        <div class="name">ООО «ЭнергоРесурс» официально представляет бренд IEK.</div>
+
+        <div class="right">
+            <div class="link">
+                <a href="/" target="_blank" rel="noopener nofolloe">energo-res.ru</a>
+            </div>
+
+            <div class="period">Продвигаем с Апреля 2020</div>
+        </div>
+    </div>
+
+
+    <div class="image">
+        <img src="images/tmp/project_info_img.jpg" alt="">
+    </div>
+
+
+    <div class="image">
+        <div class="block_title">Заголовок</div>
+
+        <img src="images/tmp/project_info_img2.jpg" alt="">
+    </div>
+
+
+    <div class="image">
+        <div class="block_title">Заголовок</div>
+
+        <img src="images/tmp/project_info_img3.jpg" alt="">
+    </div>
+
+
+    <div class="already_helped">
+        <div class="block_title">Наш подход уже помог:</div>
+
+        <div class="row">
+            <div class="item">Создан новый сайт с нуля, со сложной синхронизацией с каталогом производителя.</div>
+
+            <div class="item">Благодаря грамотной синхронизации сайт показывает стабильный рост трафика и позиций.</div>
+
+            <div class="item">Сайт в перспективе займет лидирующие позиции в данной тематике.</div>
+        </div>
+    </div>
+
+
+    <div class="before_after">
+        <div class="block_title">Было | Стало</div>
+
+        <div class="item">
+            <img src="images/tmp/before_after_img1.jpg" alt="">
+
+            <div class="resize">
+                <img src="images/tmp/before_after_img2.jpg" alt="">
+            </div>
+
+            <span class="handle">
+                <span>
+                    <svg class="icon left"><use xlink:href="images/sprite.svg#ic_arr_left"></use></svg>
+                    <svg class="icon right"><use xlink:href="images/sprite.svg#ic_arr_left"></use></svg>
+                </span>
+            </span>
+        </div>
+    </div>
+
+
+    <div class="projects related">
+        <div class="block_title">Смотрите еще:</div>
+
+        <div class="row">
+            <button class="project" data-type="ajax" data-src="/project_info_modal.html">
+                <div class="thumb">
+                    <img src="images/tmp/project4_thumb.jpg" alt="">
+                </div>
+
+                <div class="logo">
+                    <img src="images/tmp/project4_logo.svg" alt="">
+                </div>
+
+                <div class="details">
+                    <div class="btn">Подробнее</div>
+                </div>
+            </button>
+
+            <button class="project" data-type="ajax" data-src="/project_info_modal.html">
+                <div class="thumb">
+                    <img src="images/tmp/project5_thumb.jpg" alt="">
+                </div>
+
+                <div class="logo">
+                    <img src="images/tmp/project5_logo.svg" alt="">
+                </div>
+
+                <div class="details">
+                    <div class="btn">Подробнее</div>
+                </div>
+            </button>
+
+            <button class="project" data-type="ajax" data-src="/project_info_modal.html">
+                <div class="thumb">
+                    <img src="images/tmp/project6_thumb.jpg" alt="">
+                </div>
+
+                <div class="logo">
+                    <img src="images/tmp/project6_logo.svg" alt="">
+                </div>
+
+                <div class="details">
+                    <div class="btn">Подробнее</div>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <script src="/js/before-after.min.js"></script>
+    <script>
+        $(() => {
+            // Было | Стало
+            $('.before_after .item').each(function(){
+                $(this).beforeAfter()
+            })
+        })
+    </script>
+</section>

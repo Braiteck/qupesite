@@ -1,0 +1,500 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo a,
+    header .logo img
+    {
+        width: 80px;
+    }
+
+    header .logo img
+    {
+        display: none !important;
+    }
+
+    header .logo img.mob
+    {
+        display: block !important;
+    }
+
+
+
+    header.fixed
+    {
+        padding: 10px 0;
+    }
+
+
+
+    #search_modal .often_search .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .block
+    {
+        padding: 20px;
+    }
+
+    aside .block_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h1
+    {
+        font-size: 26px;
+    }
+
+    .text_block h2
+    {
+        font-size: 22px;
+
+        margin-bottom: 15px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        padding-top: 90px;
+    }
+
+
+    .main_slider .slide .title
+    {
+        font-size: 38px;
+    }
+
+    .main_slider .slide .links a,
+    .main_slider .slide .links button
+    {
+        font-size: 15px;
+        line-height: 125%;
+
+        padding: 11px 25px;
+    }
+
+
+
+    /*----------------------
+        Popular services
+    ----------------------*/
+    .popular_services .tabs button
+    {
+        font-size: 17px;
+
+        width: calc(100% - 20px);
+    }
+
+
+    .popular_services .stats
+    {
+        font-size: 20px;
+
+        margin-top: 35px;
+    }
+
+    .popular_services .stats .val
+    {
+        font-size: 28px;
+    }
+
+    .popular_services .stats sup
+    {
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+
+    #popular_services_tab1 .buy .price
+    {
+        bottom: 30px;
+        left: 0;
+    }
+
+    #popular_services_tab1 .buy .details
+    {
+        font-size: 15px;
+        line-height: 125%;
+
+        right: 0;
+        bottom: 30px;
+
+        padding: 11px 25px;
+    }
+
+
+
+    /*-------------
+        Complex
+    -------------*/
+    .complex
+    {
+        padding: 70px 0 30px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head
+    {
+        margin-bottom: 20px;
+    }
+
+    .article_info .head > * + *
+    {
+        margin-top: 10px;
+    }
+
+    .article_info .head .cat,
+    .article_info .head .date
+    {
+        line-height: 125%;
+
+        width: 100%;
+    }
+
+
+
+    .article_info .bottom > * + *
+    {
+        margin-top: 10px;
+    }
+
+    .article_info .bottom .date,
+    .article_info .bottom .share
+    {
+        line-height: 125%;
+
+        width: 100%;
+    }
+
+
+
+    /*------------------------
+        Prev Next articles
+    ------------------------*/
+    .prev_next_articles .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .prev_next_articles .article .name
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        padding-top: 85px;
+    }
+
+
+    .service_head .breadcrumbs
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .service_head .data .title
+    {
+        font-size: 44px;
+    }
+
+    .service_head .data .desc
+    {
+        line-height: 140%;
+    }
+
+
+    .service_head .form
+    {
+        padding: 30px;
+    }
+
+    .service_head .form .title
+    {
+        font-size: 21px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .img
+    {
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+
+    .service_info .data .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .tabs
+    {
+        margin-bottom: 10px;
+        margin-left: -25px;
+    }
+
+    .projects .tabs button
+    {
+        font-size: 16px;
+
+        max-width: calc(100% - 25px);
+        margin-left: 25px;
+    }
+
+
+    .projects .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .projects .project .logo,
+    .projects .project .details
+    {
+        bottom: 25px;
+
+        width: 220px;
+        height: 70px;
+    }
+
+
+
+    /*-----------------------
+        Strategy/Timeline
+    -----------------------*/
+    .strategy_timeline .month .lock_info
+    {
+        padding: 20px;
+    }
+
+    .strategy_timeline .month .lock_info .title
+    {
+        font-size: 24px;
+    }
+
+    .strategy_timeline .month .lock_info .period
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*----------------
+        What we do
+    ----------------*/
+    .what_we_do .item
+    {
+        padding: 20px 20px 25px;
+    }
+
+    .what_we_do .item:before
+    {
+        font-size: 40px;
+
+        left: 20px;
+    }
+
+    .what_we_do .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form .data .title
+    {
+        font-size: 24px;
+    }
+
+
+    .action_form .form .columns > *.width1of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .item .head
+    {
+        padding-right: 50px;
+    }
+
+    .faq .item .title
+    {
+        font-size: 16px;
+    }
+
+
+    .faq .item .icon
+    {
+        top: 13px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+    .faq .item .icon:before
+    {
+        width: 20px;
+        height: 2px;
+    }
+
+    .faq .item .icon:after
+    {
+        width: 2px;
+        height: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service .icon
+    {
+        margin: -25px 0;
+
+        transform: scale(.75);
+    }
+
+
+
+    /*------------------
+        Has question
+    ------------------*/
+    .has_question .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------
+        You want
+    --------------*/
+    .you_want .title
+    {
+        font-size: 24px;
+    }
+
+    .you_want .title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info .col_left
+    {
+        width: 200px;
+    }
+
+
+    footer .info .links
+    {
+        width: auto;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .project_info .head .name
+    {
+        font-size: 24px;
+    }
+
+
+    .project_info .image .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .project_info .already_helped .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .project_info .before_after .block_title,
+    .project_info .projects .block_title
+    {
+        font-size: 26px;
+    }
+}
