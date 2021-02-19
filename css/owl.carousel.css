@@ -331,7 +331,8 @@
 
 .advantages .owl-carousel .owl-nav button,
 .team .owl-carousel .owl-nav button,
-.services .owl-carousel .owl-nav button
+.services .owl-carousel .owl-nav button,
+.reviews .owl-carousel .owl-nav button
 {
     bottom: 0;
 
@@ -339,6 +340,7 @@
 
     border: 1px solid transparent;
     border-radius: 50%;
+    background: transparent;
 }
 
 .advantages .owl-carousel .owl-nav button.owl-prev > *,
@@ -346,7 +348,9 @@
 .team .owl-carousel .owl-nav button.owl-prev > *,
 .team .owl-carousel .owl-nav button.owl-next > *,
 .services .owl-carousel .owl-nav button.owl-prev > *,
-.services .owl-carousel .owl-nav button.owl-next > *
+.services .owl-carousel .owl-nav button.owl-next > *,
+.reviews .owl-carousel .owl-nav button.owl-prev > *,
+.reviews .owl-carousel .owl-nav button.owl-next > *
 {
     width: 11px;
     height: 16px;
@@ -360,7 +364,8 @@
 
 .advantages .owl-carousel .owl-nav button.owl-prev,
 .team .owl-carousel .owl-nav button.owl-prev,
-.services .owl-carousel .owl-nav button.owl-prev
+.services .owl-carousel .owl-nav button.owl-prev,
+.reviews .owl-carousel .owl-nav button.owl-prev
 {
     right: auto;
     left: 50%;
@@ -370,7 +375,8 @@
 
 .advantages .owl-carousel .owl-nav button.owl-next,
 .team .owl-carousel .owl-nav button.owl-next,
-.services .owl-carousel .owl-nav button.owl-next
+.services .owl-carousel .owl-nav button.owl-next,
+.reviews .owl-carousel .owl-nav button.owl-next
 {
     right: 50%;
 
@@ -379,7 +385,8 @@
 
 .advantages .owl-carousel .owl-nav button:hover,
 .team .owl-carousel .owl-nav button:hover,
-.services .owl-carousel .owl-nav button:hover
+.services .owl-carousel .owl-nav button:hover,
+.reviews .owl-carousel .owl-nav button:hover
 {
     border-color: #c9c9c9;
 }
@@ -389,7 +396,9 @@
 .team .owl-carousel .owl-nav button.owl-prev:hover > *,
 .team .owl-carousel .owl-nav button.owl-next:hover > *,
 .services .owl-carousel .owl-nav button.owl-prev:hover > *,
-.services .owl-carousel .owl-nav button.owl-next:hover > *
+.services .owl-carousel .owl-nav button.owl-next:hover > *,
+.reviews .owl-carousel .owl-nav button.owl-prev:hover > *,
+.reviews .owl-carousel .owl-nav button.owl-next:hover > *
 {
     fill: #4561b5;
     stroke: #4561b5;

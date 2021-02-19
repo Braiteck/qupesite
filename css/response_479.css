@@ -453,6 +453,42 @@
 
 
 
+    /*--------------------
+        Our philosophy
+    --------------------*/
+    .our_philosophy .stats .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .our_philosophy .stats .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .our_philosophy .stats .item
+    {
+        font-size: 15px;
+
+        padding: 20px 16px;
+    }
+
+
+
+    /*--------------------
+        Scheme unclear
+    --------------------*/
+    .scheme_unclear
+    {
+        min-height: 420px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -478,23 +514,36 @@
     }
 
 
-    .project_info .image .block_title
+    .project_info .block_title
     {
-        font-size: 22px;
+        font-size: 26px;
     }
 
 
-    .project_info .already_helped .block_title
+    .project_info .result .title,
+    .project_info .tasks .title
     {
-        font-size: 26px;
-
-        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 18px;
     }
 
 
-    .project_info .before_after .block_title,
-    .project_info .projects .block_title
+    .project_info .tasks
     {
-        font-size: 26px;
+        margin-top: 20px;
+    }
+
+
+
+    .project_info .problems .row > *
+    {
+        width: calc(100% - 25px);
+    }
+
+
+
+    .project_info .tasks_row .row > *
+    {
+        width: calc(100% - 20px);
     }
 }

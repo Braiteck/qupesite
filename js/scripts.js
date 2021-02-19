@@ -7,7 +7,7 @@ $(() => {
 		dots: false,
 		loop: true,
 		smartSpeed: 750,
-		// autoplay: true,
+		autoplay: true,
 		autoplayTimeout: 5000,
 		navText: [
 			'<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_left"></use></svg>',
@@ -174,6 +174,54 @@ $(() => {
 	})
 
 
+	// Отзывы
+	$('.reviews .slider').owlCarousel({
+		nav: true,
+		dots: true,
+		loop: true,
+		margin: 20,
+		smartSpeed: 500,
+		dotsEach: true,
+		navText: [
+			'<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_left"></use></svg>',
+			'<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_left"></use></svg>'
+		],
+		responsive: {
+			0: {
+				items: 1
+			},
+			768: {
+				items: 2
+			},
+			1024: {
+				items: 3
+			},
+			1280: {
+				items: 4
+			}
+		},
+		onInitialized: event => {
+			let dotsW = $(event.target).find('.owl-dots').width(),
+				arrowW = $(event.target).find('button.owl-prev').width()
+
+			$(event.target).find('button.owl-prev').css('margin-left', dotsW / -2 - arrowW * 1.5)
+			$(event.target).find('button.owl-next').css('margin-right', dotsW / -2 - arrowW * 1.5)
+
+			setHeight($(event.target).find('.review'))
+		},
+		onResized: event => {
+			let dotsW = $(event.target).find('.owl-dots').width(),
+				arrowW = $(event.target).find('button.owl-prev').width()
+
+			$(event.target).find('button.owl-prev').css('margin-left', dotsW / -2 - arrowW * 1.5)
+			$(event.target).find('button.owl-next').css('margin-right', dotsW / -2 - arrowW * 1.5)
+
+			$(event.target).find('.review').height('auto')
+			setHeight($(event.target).find('.review'))
+		}
+	})
+
+
 	// Поиск
 	$('header .search_btn, #search_modal .close').click(function (e) {
 		e.preventDefault()
@@ -297,7 +345,8 @@ $(() => {
 
 $(window).on('load', () => {
 	// Фикс. шапка
-	headerInit = true,
+	windowWidth = $(window).width(),
+		headerInit = true,
 		headerHeight = $('header').outerHeight()
 
 	$('header:not(.absolute)').wrap('<div class="header_wrap"></div>')
@@ -322,29 +371,31 @@ $(window).on('load', () => {
 
 $(window).resize(() => {
 	// Фикс. шапка
-	headerInit = false
-	$('.header_wrap').height('auto')
+	if (windowWidth != $(window).width()) {
+		headerInit = false
+		$('.header_wrap').height('auto')
 
-	setTimeout(() => {
-		headerInit = true
-		headerHeight = $('header').outerHeight()
+		setTimeout(() => {
+			headerInit = true
+			headerHeight = $('header').outerHeight()
 
-		$('.header_wrap').height(headerHeight)
+			$('.header_wrap').height(headerHeight)
 
-		headerInit && $(window).scrollTop() > 0
-			? $('header').addClass('fixed')
-			: $('header').removeClass('fixed')
-	}, 100)
+			headerInit && $(window).scrollTop() > 0
+				? $('header').addClass('fixed')
+				: $('header').removeClass('fixed')
+		}, 100)
 
 
-	// Выравнивание элементов в сетке
-	$('.articles .row').each(function () {
-		articleHeight($(this), parseInt($(this).css('--articles_count')))
-	})
+		// Выравнивание элементов в сетке
+		$('.articles .row').each(function () {
+			articleHeight($(this), parseInt($(this).css('--articles_count')))
+		})
 
-	$('.tariffs .row').each(function () {
-		tariffHeight($(this), parseInt($(this).css('--tariffs_count')))
-	})
+		$('.tariffs .row').each(function () {
+			tariffHeight($(this), parseInt($(this).css('--tariffs_count')))
+		})
+	}
 })
 
 

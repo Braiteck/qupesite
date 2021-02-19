@@ -528,6 +528,7 @@ body.compensate-for-scrollbar
 {
     color: #fff;
 
+    position: fixed;
     top: 0;
     right: 0;
 

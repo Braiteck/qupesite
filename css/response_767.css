@@ -14,6 +14,11 @@
         margin-bottom: 60px;
     }
 
+    .block.bg
+    {
+        padding: 60px 0;
+    }
+
 
 
     .owl-dot + .owl-dot
@@ -143,6 +148,12 @@
     /*----------------
         Typography
     ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
     .text_block h1
     {
         font-size: 28px;
@@ -718,6 +729,90 @@
 
 
 
+    /*--------------------
+        Our philosophy
+    --------------------*/
+    .our_philosophy .center
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .our_philosophy .block_head .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .our_philosophy .stats .row > *
+    {
+        width: calc(50% - 15px);
+    }
+
+
+    .our_philosophy .stats .item
+    {
+        font-size: 16px;
+    }
+
+
+    .our_philosophy .big_boss
+    {
+        font-size: 18px;
+    }
+
+    .our_philosophy .big_boss .photo
+    {
+        margin-bottom: 20px;
+    }
+
+    .our_philosophy .big_boss .post
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        About shortly
+    -------------------*/
+    .about_shortly
+    {
+        padding: 60px 0;
+    }
+
+
+    .about_shortly .block_head
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px !important;
+    }
+
+    .about_shortly .block_head .desc
+    {
+        margin-top: 25px;
+    }
+
+
+    .about_shortly .image
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .slider
+    {
+        padding-bottom: 60px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -799,13 +894,96 @@
     }
 
 
-    .project_info .image .block_title
+
+    .project_info .result .title,
+    .project_info .tasks .title
     {
-        font-size: 24px;
+        font-size: 18px;
+        line-height: 20px;
     }
 
 
-    .project_info .already_helped .block_title
+
+    .project_info .tasks .data
+    {
+        font-size: 15px;
+
+        padding: 19px;
+    }
+
+    .project_info .tasks .items > *
+    {
+        background-position: 4px 2px;
+    }
+
+
+
+    .project_info .about_client .logo
+    {
+        width: auto;
+    }
+
+
+    .project_info .about_client .text_block
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+
+    .project_info .tasks_row .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    .project_info .work_progress .text_block img
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin: 25px -20px;
+    }
+
+
+
+    .project_info .results .result + .row
+    {
+        margin-top: 30px;
+    }
+
+    .project_info .results .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .project_info .review .thumb
+    {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+
+    .project_info .review .text_block
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+
+    /* .project_info .image .block_title
+    {
+        font-size: 24px;
+    } */
+
+
+    /* .project_info .already_helped .block_title
     {
         font-size: 28px;
     }
@@ -819,5 +997,5 @@
     {
         width: calc(100% - 30px);
         margin-bottom: 20px;
-    }
+    } */
 }

@@ -271,6 +271,12 @@
     }
 
 
+    .projects .all_link
+    {
+        margin-top: 40px;
+    }
+
+
 
     /*-------------
         Tariffs
@@ -360,6 +366,77 @@
     .has_question .cont
     {
         padding: 0 70px;
+    }
+
+
+
+    /*--------------------
+        Our philosophy
+    --------------------*/
+    .our_philosophy .big_boss
+    {
+        width: 340px;
+    }
+
+
+    .our_philosophy .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .our_philosophy .stats .item
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------------
+        About shortly
+    -------------------*/
+    .about_shortly
+    {
+        padding: 70px 0;
+    }
+
+
+    .about_shortly .cont
+    {
+        padding-right: 60px;
+        padding-left: 120px;
+    }
+
+
+    .about_shortly .block_head .desc
+    {
+        margin-top: 70px;
+    }
+
+
+
+    /*--------------------
+        Scheme unclear
+    --------------------*/
+    .scheme_unclear
+    {
+        min-height: 650px;
+    }
+
+
+    .scheme_unclear .info
+    {
+        width: 720px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .photo
+    {
+        margin-bottom: 60px;
     }
 
 

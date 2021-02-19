@@ -266,6 +266,14 @@
         margin-bottom: 30px;
     }
 
+    .block_head .pre_title
+    {
+        font-size: 22px;
+        line-height: 125%;
+
+        margin-bottom: 20px;
+    }
+
     .block_head .desc
     {
         font-size: 15px;
@@ -874,6 +882,12 @@
     }
 
 
+    .projects .all_link
+    {
+        margin-top: 30px;
+    }
+
+
 
     /*-------------
         Tariffs
@@ -1130,6 +1144,12 @@
     .team .block_head .desc
     {
         margin-top: 15px;
+    }
+
+
+    .team .photo
+    {
+        margin-bottom: 50px;
     }
 
 
@@ -1417,6 +1437,107 @@
 
 
 
+    /*--------------------
+        Our philosophy
+    --------------------*/
+    .our_philosophy .cont
+    {
+        justify-content: space-around;
+    }
+
+
+    .our_philosophy .center
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .our_philosophy .stats .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .our_philosophy .stats .row > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .our_philosophy .stats .item
+    {
+        font-size: 18px;
+
+        padding: 20px;
+    }
+
+
+    .our_philosophy .big_boss
+    {
+        width: auto;
+        margin-top: 0;
+
+        order: 2;
+    }
+
+    .our_philosophy .big_boss .photo
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-------------------
+        About shortly
+    -------------------*/
+    .about_shortly .cont
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+
+    .about_shortly .block_head .desc
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*--------------------
+        Scheme unclear
+    --------------------*/
+    .scheme_unclear
+    {
+        min-height: 550px;
+    }
+
+
+    .scheme_unclear .info
+    {
+        width: 550px;
+    }
+
+    .scheme_unclear .title
+    {
+        width: 490px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .slider
+    {
+        padding-bottom: 70px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -1486,6 +1607,26 @@
         padding: 40px 50px;
     }
 
+
+    .project_info .block_title
+    {
+        font-size: 32px;
+        line-height: 135%;
+
+        margin-bottom: 22px;
+    }
+
+    .project_info .block_desc
+    {
+        margin: -10px auto 44px;
+    }
+
+
+    .project_info .head
+    {
+        margin-bottom: 35px;
+    }
+
     .project_info .head .name
     {
         font-size: 30px;
@@ -1498,7 +1639,186 @@
     }
 
 
-    .project_info .image
+
+    .project_info .result .title
+    {
+        font-size: 20px;
+
+        padding: 19px;
+    }
+
+    .project_info .result .data
+    {
+        padding: 9px;
+    }
+
+
+
+    .project_info .tasks .title
+    {
+        font-size: 20px;
+
+        padding: 19px;
+    }
+
+    .project_info .tasks .data
+    {
+        font-size: 17px;
+
+        padding: 29px;
+    }
+
+    .project_info .tasks .items > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    .project_info .about_client
+    {
+        margin-top: 50px;
+    }
+
+
+    .project_info .about_client .logo
+    {
+        width: 400px;
+    }
+
+    .project_info .about_client .text_block
+    {
+        width: calc(100% - 435px);
+        margin-left: auto;
+    }
+
+
+
+    .project_info .problems
+    {
+        margin-top: 50px;
+    }
+
+
+    .project_info .problems .row
+    {
+        margin-left: -30px;
+    }
+
+    .project_info .problems .row > *
+    {
+        width: calc(25% - 30px);
+        margin-left: 30px;
+    }
+
+
+    .project_info .problems .item
+    {
+        padding-left: 28px;
+    }
+
+
+    .project_info .problems .bottom_text
+    {
+        margin-top: 40px;
+    }
+
+
+
+    .project_info .purpose
+    {
+        margin-top: 55px;
+    }
+
+
+
+    .project_info .tasks_row
+    {
+        margin-top: 50px;
+    }
+
+
+    .project_info .tasks_row .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .project_info .tasks_row .row > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .project_info .tasks_row .item
+    {
+        line-height: 125%;
+
+        padding: 64px 24px 24px;
+    }
+
+    .project_info .tasks_row .item:before
+    {
+        font-size: 18px;
+
+        top: 27px;
+    }
+
+
+
+    .project_info .work_progress
+    {
+        margin-top: 55px;
+    }
+
+
+    .project_info .work_progress .text_block img
+    {
+        width: calc(100% + 200px);
+        max-width: calc(100% + 200px);
+        margin: 30px -100px 40px;
+    }
+
+
+
+    .project_info .results .result + .row
+    {
+        margin-top: 40px;
+    }
+
+    .project_info .results .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .project_info .results .row > *
+    {
+        line-height: 125%;
+
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 24px;
+    }
+
+
+
+    .project_info .review .text_block
+    {
+        width: calc(100% - 355px);
+    }
+
+    .project_info .review .thumb
+    {
+        width: 320px;
+        margin-left: 35px;
+    }
+
+
+    /* .project_info .image
     {
         margin-top: 30px;
     }
@@ -1555,19 +1875,11 @@
     {
         font-size: 32px;
         line-height: 125%;
-    }
+    } */
 
 
     .project_info .projects
     {
         margin-top: 50px;
-    }
-
-    .project_info .projects .block_title
-    {
-        font-size: 32px;
-        line-height: 125%;
-
-        margin-bottom: 25px;
     }
 }
