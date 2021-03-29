@@ -813,6 +813,50 @@
 
 
 
+    /*-------------
+        History
+    -------------*/
+    .history
+    {
+        padding: 55px 0 40px;
+    }
+
+
+    .history .tabs
+    {
+        font-size: 0;
+
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        height: 38px;
+        margin: 0 -20px 25px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+    }
+
+    .history .tabs::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .history .tabs button
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        display: inline-block;
+
+        height: 32px;
+
+        vertical-align: top;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

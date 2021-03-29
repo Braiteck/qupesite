@@ -6313,7 +6313,7 @@ aside .tags .links a:hover
 
     content: counters(item, '.') '.';
     counter-increment: item;
-}
+} */
 
 
 .project_info .before_after
@@ -6366,7 +6366,7 @@ aside .tags .links a:hover
     height: 100%;
 }
 
-.before_after .handle
+.project_info .before_after .handle
 {
     position: absolute;
     top: 0;
@@ -6378,7 +6378,7 @@ aside .tags .links a:hover
     cursor: ew-resize;
 }
 
-.before_after .handle span
+.project_info .before_after .handle span
 {
     position: absolute;
     top: 0;
@@ -6401,7 +6401,7 @@ aside .tags .links a:hover
     flex-wrap: wrap;
 }
 
-.before_after .handle span .icon
+.project_info .before_after .handle span .icon
 {
     display: block;
 
@@ -6413,12 +6413,12 @@ aside .tags .links a:hover
     stroke-width: 1px;
 }
 
-.before_after .handle span .icon + .icon
+.project_info .before_after .handle span .icon + .icon
 {
     margin-left: 14px;
 }
 
-.before_after .handle span .icon.right
+.project_info .before_after .handle span .icon.right
 {
     transform: rotate(180deg);
 }
@@ -6439,7 +6439,7 @@ aside .tags .links a:hover
     margin-bottom: 41px;
 
     text-align: center;
-} */
+}
 
 
 
@@ -6689,6 +6689,176 @@ aside .tags .links a:hover
 .scheme_unclear .title b
 {
     font-weight: 800;
+}
+
+
+
+/*-------------
+    History
+-------------*/
+.history
+{
+    position: relative;
+    z-index: 5;
+
+    padding: 133px 0 80px;
+
+    background: #eff2f9;
+}
+
+
+.history .tabs
+{
+    display: flex;
+
+    margin-bottom: 73px;
+
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.history .tabs button
+{
+    color: #9a9a9a;
+    font-size: 48px;
+    line-height: 125%;
+
+    display: block;
+
+    transition: color .2s linear;
+}
+
+.history .tabs button + button
+{
+    margin-left: 50px;
+}
+
+.history .tabs button b
+{
+    font-weight: 800;
+}
+
+.history .tabs button:hover,
+.history .tabs button.active
+{
+    color: #4561b5;
+}
+
+
+.history .dates
+{
+    width: 1095px;
+    max-width: 100%;
+    padding-bottom: 133px;
+}
+
+.history .dates .owl-stage-outer
+{
+    overflow: visible !important;
+}
+
+
+.history .dates .item .date
+{
+    color: #323232;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+
+    margin-bottom: 29px;
+}
+
+.history .dates .item .event
+{
+    color: #4561b5;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.history .dates .item .event + .event
+{
+    margin-top: 20px;
+}
+
+.history .dates .item .img
+{
+    position: relative;
+
+    overflow: hidden;
+
+    margin-top: 44px;
+    padding-bottom: 77.85%;
+
+    transform: translateZ(0);
+
+    border-radius: 10px;
+    background: #ddd;
+}
+
+.history .dates .item .img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.history .bg
+{
+    position: absolute;
+    z-index: -1;
+    top: -31px;
+    right: 50%;
+
+    display: block;
+
+    width: 275px;
+    height: 194px;
+    margin-right: -660px;
+
+    pointer-events: none;
+}
+
+.history .bg2
+{
+    position: absolute;
+    z-index: -1;
+    top: 70px;
+    left: 50%;
+
+    display: block;
+
+    width: 977px;
+    height: 573px;
+    margin-left: -616px;
+
+    pointer-events: none;
+}
+
+.history .bg3
+{
+    position: absolute;
+    z-index: -1;
+    right: 50%;
+    bottom: 0;
+
+    display: block;
+
+    width: 1016px;
+    height: 430px;
+    margin-right: -720px;
+
+    pointer-events: none;
 }
 
 

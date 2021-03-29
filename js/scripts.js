@@ -222,6 +222,52 @@ $(() => {
 	})
 
 
+	// История компании
+	$('.history .slider').owlCarousel({
+		nav: true,
+		dots: true,
+		loop: false,
+		smartSpeed: 500,
+		dotsEach: true,
+		navText: [
+			'<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_left"></use></svg>',
+			'<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_left"></use></svg>'
+		],
+		responsive: {
+			0: {
+				items: 1,
+				margin: 30
+			},
+			768: {
+				items: 2,
+				margin: 30
+			},
+			1024: {
+				items: 3,
+				margin: 40
+			},
+			1280: {
+				items: 3,
+				margin: 60
+			}
+		},
+		onInitialized: event => {
+			let dotsW = $(event.target).find('.owl-dots').width(),
+				arrowW = $(event.target).find('button.owl-prev').width()
+
+			$(event.target).find('button.owl-prev').css('margin-left', dotsW / -2 - arrowW * 1.5)
+			$(event.target).find('button.owl-next').css('margin-right', dotsW / -2 - arrowW * 1.5)
+		},
+		onResized: event => {
+			let dotsW = $(event.target).find('.owl-dots').width(),
+				arrowW = $(event.target).find('button.owl-prev').width()
+
+			$(event.target).find('button.owl-prev').css('margin-left', dotsW / -2 - arrowW * 1.5)
+			$(event.target).find('button.owl-next').css('margin-right', dotsW / -2 - arrowW * 1.5)
+		}
+	})
+
+
 	// Поиск
 	$('header .search_btn, #search_modal .close').click(function (e) {
 		e.preventDefault()

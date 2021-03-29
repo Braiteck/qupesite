@@ -431,6 +431,39 @@
 
 
 
+    /*-------------
+        History
+    -------------*/
+    .history
+    {
+        padding: 100px 0 60px;
+    }
+
+
+    .history .tabs
+    {
+        margin-bottom: 60px;
+    }
+
+    .history .tabs button
+    {
+        font-size: 44px;
+    }
+
+
+    .history .dates
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .history .dates .item .img
+    {
+        margin-top: 40px;
+    }
+
+
+
     /*----------
         Team
     ----------*/

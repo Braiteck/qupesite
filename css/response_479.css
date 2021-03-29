@@ -546,4 +546,11 @@
     {
         width: calc(100% - 20px);
     }
+
+
+    .project_info .before_after .block_title,
+    .project_info .projects .block_title
+    {
+        font-size: 26px;
+    }
 }

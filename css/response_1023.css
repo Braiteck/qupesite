@@ -964,6 +964,39 @@
 
 
 
+    /*-------------
+        History
+    -------------*/
+    .history
+    {
+        padding: 60px 0 50px;
+    }
+
+
+    .history .tabs
+    {
+        margin-bottom: 40px;
+    }
+
+    .history .tabs button
+    {
+        font-size: 32px;
+    }
+
+
+    .history .dates
+    {
+        padding-bottom: 70px;
+    }
+
+
+    .history .bg
+    {
+        display: none;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -1180,5 +1213,25 @@
     {
         width: 240px;
         margin-left: 25px;
+    }
+
+
+    .project_info .before_after .block_title
+    {
+        font-size: 28px;
+    }
+
+    .project_info .before_after .handle span
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .project_info .projects .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
     }
 }

@@ -1529,6 +1529,79 @@
 
 
     /*-------------
+        History
+    -------------*/
+    .history
+    {
+        padding: 80px 0 50px;
+    }
+
+
+    .history .tabs
+    {
+        margin-bottom: 50px;
+    }
+
+    .history .tabs button
+    {
+        font-size: 36px;
+    }
+
+    .history .tabs button + button
+    {
+        margin-left: 40px;
+    }
+
+
+    .history .dates
+    {
+        padding-right: 80px;
+    }
+
+    .history .dates .item .date
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+    .history .dates .item .event
+    {
+        font-size: 18px;
+    }
+
+    .history .dates .item .img
+    {
+        margin-top: 30px;
+    }
+
+
+    .history .bg
+    {
+        top: -50px;
+
+        margin-right: -520px;
+    }
+
+    .history .bg2
+    {
+        top: 50px;
+
+        margin-left: -760px;
+    }
+
+    .history .bg3
+    {
+        right: 0;
+
+        max-width: 65%;
+        height: auto;
+        margin-right: 0;
+    }
+
+
+
+    /*-------------
         Reviews
     -------------*/
     .reviews .slider
@@ -1863,7 +1936,7 @@
         line-height: 125%;
 
         padding-left: 35px;
-    }
+    } */
 
 
     .project_info .before_after
@@ -1875,7 +1948,7 @@
     {
         font-size: 32px;
         line-height: 125%;
-    } */
+    }
 
 
     .project_info .projects
